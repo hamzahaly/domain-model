@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9DCC7F531DB582910061C86B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC7F521DB582910061C86B /* main.swift */; };
+		9DCC7F601DB5865C0061C86B /* SimpleDomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC7F5F1DB5865C0061C86B /* SimpleDomainModelTests.swift */; };
+		9DCC7F661DB586870061C86B /* JobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC7F651DB586870061C86B /* JobTests.swift */; };
+		9DCC7F681DB5868B0061C86B /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC7F671DB5868B0061C86B /* MoneyTests.swift */; };
+		9DCC7F6A1DB586900061C86B /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC7F691DB586900061C86B /* PersonTests.swift */; };
+		9DCC7F6B1DB5872E0061C86B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC7F521DB582910061C86B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +30,23 @@
 /* Begin PBXFileReference section */
 		9DCC7F4F1DB582910061C86B /* SimpleDomainModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleDomainModel; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCC7F521DB582910061C86B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9DCC7F5D1DB5865C0061C86B /* SimpleDomainModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDomainModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCC7F5F1DB5865C0061C86B /* SimpleDomainModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDomainModelTests.swift; sourceTree = "<group>"; };
+		9DCC7F611DB5865C0061C86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCC7F651DB586870061C86B /* JobTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobTests.swift; path = ../../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/JobTests.swift; sourceTree = "<group>"; };
+		9DCC7F671DB5868B0061C86B /* MoneyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoneyTests.swift; path = ../../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/MoneyTests.swift; sourceTree = "<group>"; };
+		9DCC7F691DB586900061C86B /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonTests.swift; path = ../../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/PersonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9DCC7F4C1DB582910061C86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCC7F5A1DB5865C0061C86B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				9DCC7F511DB582910061C86B /* SimpleDomainModel */,
+				9DCC7F5E1DB5865C0061C86B /* SimpleDomainModelTests */,
 				9DCC7F501DB582910061C86B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				9DCC7F4F1DB582910061C86B /* SimpleDomainModel */,
+				9DCC7F5D1DB5865C0061C86B /* SimpleDomainModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +80,18 @@
 				9DCC7F521DB582910061C86B /* main.swift */,
 			);
 			path = SimpleDomainModel;
+			sourceTree = "<group>";
+		};
+		9DCC7F5E1DB5865C0061C86B /* SimpleDomainModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC7F5F1DB5865C0061C86B /* SimpleDomainModelTests.swift */,
+				9DCC7F651DB586870061C86B /* JobTests.swift */,
+				9DCC7F671DB5868B0061C86B /* MoneyTests.swift */,
+				9DCC7F691DB586900061C86B /* PersonTests.swift */,
+				9DCC7F611DB5865C0061C86B /* Info.plist */,
+			);
+			path = SimpleDomainModelTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +114,23 @@
 			productReference = 9DCC7F4F1DB582910061C86B /* SimpleDomainModel */;
 			productType = "com.apple.product-type.tool";
 		};
+		9DCC7F5C1DB5865C0061C86B /* SimpleDomainModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCC7F621DB5865C0061C86B /* Build configuration list for PBXNativeTarget "SimpleDomainModelTests" */;
+			buildPhases = (
+				9DCC7F591DB5865C0061C86B /* Sources */,
+				9DCC7F5A1DB5865C0061C86B /* Frameworks */,
+				9DCC7F5B1DB5865C0061C86B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDomainModelTests;
+			productName = SimpleDomainModelTests;
+			productReference = 9DCC7F5D1DB5865C0061C86B /* SimpleDomainModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +141,10 @@
 				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					9DCC7F4E1DB582910061C86B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9DCC7F5C1DB5865C0061C86B = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,9 +163,20 @@
 			projectRoot = "";
 			targets = (
 				9DCC7F4E1DB582910061C86B /* SimpleDomainModel */,
+				9DCC7F5C1DB5865C0061C86B /* SimpleDomainModelTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DCC7F5B1DB5865C0061C86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DCC7F4B1DB582910061C86B /* Sources */ = {
@@ -120,6 +184,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DCC7F531DB582910061C86B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCC7F591DB5865C0061C86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCC7F601DB5865C0061C86B /* SimpleDomainModelTests.swift in Sources */,
+				9DCC7F6B1DB5872E0061C86B /* main.swift in Sources */,
+				9DCC7F661DB586870061C86B /* JobTests.swift in Sources */,
+				9DCC7F6A1DB586900061C86B /* PersonTests.swift in Sources */,
+				9DCC7F681DB5868B0061C86B /* MoneyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +306,32 @@
 			};
 			name = Release;
 		};
+		9DCC7F631DB5865C0061C86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleDomainModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzahaly.SimpleDomainModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DCC7F641DB5865C0061C86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleDomainModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzahaly.SimpleDomainModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -247,6 +349,14 @@
 			buildConfigurations = (
 				9DCC7F571DB582910061C86B /* Debug */,
 				9DCC7F581DB582910061C86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DCC7F621DB5865C0061C86B /* Build configuration list for PBXNativeTarget "SimpleDomainModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCC7F631DB5865C0061C86B /* Debug */,
+				9DCC7F641DB5865C0061C86B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
